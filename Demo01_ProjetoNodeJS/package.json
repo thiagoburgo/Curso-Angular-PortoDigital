@@ -1,0 +1,16 @@
+{
+    "name": "demo01_projetonodejs",
+    "version": "1.0.0",
+    "description": "Demo 01 - Projeto NodeJS",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "exec": "node index.js"
+    },
+    "author": "Burgo",
+    "license": "ISC",
+    "dependencies": {
+        "file-system": "^2.2.2"
+    },
+    "devDependencies": {}
+}
