@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "Demo01_ProjetoNodeJS"
+		},
+		{
+			"path": "Demo02_ProjetoTypescript"
 		}
 	],
 	"settings": {}

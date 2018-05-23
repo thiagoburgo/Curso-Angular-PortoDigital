@@ -1,0 +1,16 @@
+{
+    "name": "demo02_projetotypescript",
+    "version": "1.0.0",
+    "description": "Demo 02 - Typescript",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "run": "node index.js",
+        "watch": "tsc -w"
+    },
+    "author": "Thiago Burgo",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^2.8.3"
+    }
+}
