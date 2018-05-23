@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "Demo02_ProjetoTypescript"
+		},
+		{
+			"path": "Demo03_ProjetoAngularInicial"
 		}
 	],
 	"settings": {}
