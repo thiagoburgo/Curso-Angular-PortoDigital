@@ -1,6 +1,4 @@
 export class MinhaClasse {
-
-
     meuMetodo(): number {
         let a: number = 1;
 

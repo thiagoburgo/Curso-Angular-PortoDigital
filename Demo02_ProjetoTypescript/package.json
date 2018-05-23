@@ -11,6 +11,11 @@
     "author": "Thiago Burgo",
     "license": "ISC",
     "devDependencies": {
+        "@types/jquery": "^3.3.2",
         "typescript": "^2.8.3"
+    },
+    "dependencies": {
+        "moment": "^2.22.1",
+        "momentjs": "^2.0.0"
     }
 }
