@@ -6,6 +6,7 @@ var MinhaClasse = /** @class */ (function () {
     MinhaClasse.prototype.meuMetodo = function () {
         var a = 1;
         if (true) {
+            //O problema de hoisting é eliminado
             var a_1 = 10;
             console.log(a_1);
         }

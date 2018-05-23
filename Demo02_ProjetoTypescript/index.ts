@@ -5,6 +5,7 @@ export class MinhaClasse {
         let a: number = 1;
 
         if (true) {
+            //O problema de hoisting é eliminado
             let a: number = 10;
             console.log(a);
         }
