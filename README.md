@@ -1,4 +1,4 @@
-# Curso de Angular 5 - Porto Digital
+# Curso de Angular 5 - Porto Digital :white_check_mark:
 
 ## Ementa Oficial
 
