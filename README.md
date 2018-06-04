@@ -1,5 +1,16 @@
 # Curso de Angular 5 - Porto Digital :white_check_mark:
 
+## Calendário
+
+- **Semana 01:** 07 e 09/05 
+- **Semana 02:** 21 e 23/05 
+- **Semana 03:** 28 e 30/05 (**dia 28 não houve aula devido à greve dos caminhoneiros**) 
+- **Semana 04:** 04 e 06/06
+- **Semana 05:** 11 e 13/06
+- **Semana 06:** 18 e 20/06
+- **Semana 07:** 25 e 27/06
+- **Semana 08:** 02 e 04/07
+
 ## Ementa Oficial
 
 ### História do Angular
