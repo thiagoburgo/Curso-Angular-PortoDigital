@@ -1,38 +1,49 @@
 # Curso de Angular 5 - Porto Digital :white_check_mark:
 
+## Calendário
+
+- ✅**Semana 01:** 07 e 09/05 
+- ✅**Semana 02:** 21 e 23/05 
+- ✅**Semana 03:** 28 e 30/05 (**dia 28 não houve aula devido à greve dos caminhoneiros**) 
+- **Semana 04:** 04 e 06/06
+- **Semana 05:** 11 e 13/06
+- **Semana 06:** 18 e 20/06
+- **Semana 07:** 25 e 27/06
+- **Semana 08:** 02 e 04/07
+
 ## Ementa Oficial
 
 ### História do Angular
 
-- AngularJS
-- Angular 2, Angular 4 ou simplesmente Angular?
-- O que é SPA?
+- ✅ AngularJS
+- ✅ Angular 2, Angular 4 ou simplesmente Angular?
+- ✅ O que é SPA?
 
  
 ### Introdução ao TypeScript para Angular
 
-- Criação e declaração de variáveis
-- Classes
-- Declaração de funções e uso de any e void
-- Visibilidade em TypeScript
-- Parâmetros opcionais e com dois tipos
+- ✅ Criação e declaração de variáveis
+- ✅ Classes
+- ✅ Declaração de funções e uso de any e void
+- ✅ Visibilidade em TypeScript
+- ✅ Parâmetros opcionais e com dois tipos
  
 
 ### Configurando o ambiente de desenvolvimento
 
-- Instalando o Node.js e o NPM
-- Instalação do TypeScript
-- Ambiente de desenvolvimento
-- Instalando o Angular CLI
-- Comandos do Angular CLI
+- ✅ Instalando o Node.js e o NPM
+- ✅ Instalação do TypeScript
+- ✅ Ambiente de desenvolvimento
+- ✅ Instalando o Angular CLI
+- ✅ Comandos do Angular CLI
  
 
 ### Projetando a aplicação
 
 - Arquitetura do projeto
-- Iniciando um novo projeto em Angular
+- ✅ Iniciando um novo projeto em Angular
 - Instalação do bootstrap
-- Analisando a estrutura criada
+- ✅ Analisando a estrutura criada
  
 
 ### Fundamentos do Angular
@@ -73,7 +84,7 @@
 - Instalando o http- server
 
 
-## Assuntos Sugeridos
+## Ementa Sugerida para Estudo
 
 - 01: Introdução ao Angular 2+
 - 02: Ambiente de desenvolvimento (Node.JS, TypeScript, Angular CLI)
