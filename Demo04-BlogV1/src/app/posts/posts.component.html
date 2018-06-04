@@ -1,0 +1,5 @@
+<p>
+    Posts do dia {{this.date | date:'dd/MM/yyyy'}}
+</p>
+
+<app-post *ngFor="let post of posts" [post]="post"></app-post>
