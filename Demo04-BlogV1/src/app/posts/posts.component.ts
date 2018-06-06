@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PostModel } from '../models/post.model';
+import { BlogService } from '../services/blog.service';
 
 @Component({
   selector: 'app-posts',
@@ -8,56 +10,20 @@ import { Component, OnInit } from '@angular/core';
 export class PostsComponent implements OnInit {
 
   date: Date = new Date();
-  posts: any[] = [
-    {
-      title: 'Titulo de teste 1',
-      author: 'Burgo',
-      body: `
-        ${this.date}
-        Meu corpo de teste
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nemo,
-        laboriosam magnam rem quis quaerat quisquam recusandae eaque animi molestias
-        ducimus, itaque quos maxime adipisci voluptatum labore ad aperiam quibusdam.
-      `
-    },
-    {
-      title: 'Titulo de teste 2',
-      author: 'Burgo',
-      body: `
-        ${this.date}
-        Meu corpo de teste
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nemo,
-        laboriosam magnam rem quis quaerat quisquam recusandae eaque animi molestias
-        ducimus, itaque quos maxime adipisci voluptatum labore ad aperiam quibusdam.
-      `
-    },
-    {
-      title: 'Titulo de teste 3',
-      author: 'Burgo',
-      body: `
-        ${this.date}
-        Meu corpo de teste
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nemo,
-        laboriosam magnam rem quis quaerat quisquam recusandae eaque animi molestias
-        ducimus, itaque quos maxime adipisci voluptatum labore ad aperiam quibusdam.
-      `
-    },
-    {
-      title: 'Titulo de teste 4',
-      author: 'Burgo',
-      body: `
-        ${this.date}
-        Meu corpo de teste
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nemo,
-        laboriosam magnam rem quis quaerat quisquam recusandae eaque animi molestias
-        ducimus, itaque quos maxime adipisci voluptatum labore ad aperiam quibusdam.
-      `
-    }
-  ];
+  posts: PostModel[];
 
-  constructor() { }
+  // private _blogService: BlogService;
+  constructor(private blogService: BlogService) {
+    // this._blogService = blogService;
+  }
 
   ngOnInit() {
+    this.blogService.consultarPosts()
+                    .subscribe((posts) => {
+                        this.posts = posts;
+                    }, (err) => {
+                      alert('Deu zica!');
+                    });
   }
 
 }

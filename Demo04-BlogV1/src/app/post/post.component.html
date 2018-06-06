@@ -1,12 +1,14 @@
 <article>
     <header>
-        {{this.post?.title}}
+        <app-post-title [title]="this.post?.title"></app-post-title>
+        <!-- {{this.post?.title}} -->
         <!-- {{this.post ? this.post.title : null}} -->
     </header>
     <section>
-        {{this.post?.body}}
+        <app-post-body body="{{this.post?.body}}"></app-post-body>
+        <!-- {{this.post?.body}} -->
     </section>
     <footer>
-        Escrito por: {{this.post?.author}}
+        Rodapé
     </footer>
 </article>

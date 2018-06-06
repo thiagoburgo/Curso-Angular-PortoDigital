@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-post-body',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./post-body.component.scss']
 })
 export class PostBodyComponent implements OnInit {
+
+  @Input()
+  body: string;
 
   constructor() { }
 
