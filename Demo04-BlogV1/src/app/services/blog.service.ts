@@ -14,6 +14,7 @@ export class BlogService {
   consultarPosts(): Observable<PostModel[]> {
     return this.http.get<PostModel[]>(`${environment.urls.blog.endPoint}/posts`);
 
+    // Chamada com parametros...
     // return this.http.get<PostModel[]>(`${environment.urls.blog.endPoint}/posts`, {
     //   params: {
     //     userId: '1'
