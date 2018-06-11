@@ -10,9 +10,13 @@ export class PostTitleComponent implements OnInit {
   @Input()
   title: string;
 
+  like = false;
+
   constructor() { }
 
   ngOnInit() {
   }
-
+  onLike(liked: boolean) {
+    this.like = liked;
+  }
 }

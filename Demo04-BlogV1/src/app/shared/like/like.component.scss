@@ -1,0 +1,10 @@
+.like::before {
+    color: red;
+    content: '❤'
+}
+
+.no-like::before {
+    content: '♡';
+    color: red;
+    font-size: 1.7rem;
+}

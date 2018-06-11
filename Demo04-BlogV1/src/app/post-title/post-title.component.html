@@ -1,3 +1,5 @@
 <h1 class="title">
-    {{ this.title }}
+    <span [ngStyle]="{'text-decoration': !like ? 'line-through' : null}">{{ title }} - {{like}}</span>
+
+    <app-like (liked)="onLike($event)"></app-like>
 </h1>

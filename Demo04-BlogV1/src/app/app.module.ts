@@ -11,6 +11,7 @@ import { PostBodyComponent } from './post-body/post-body.component';
 import { BlogService } from './services/blog.service';
 
 import { HttpClientModule } from '@angular/common/http';
+import { LikeComponent } from './shared/like/like.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     PostComponent,
     PostTitleComponent,
     PostAuthorComponent,
-    PostBodyComponent
+    PostBodyComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
