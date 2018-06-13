@@ -5,7 +5,7 @@
 - ✅**Semana 01:** 07 e 09/05 
 - ✅**Semana 02:** 21 e 23/05 
 - ✅**Semana 03:** 28 e 30/05 (**dia 28 não houve aula devido à greve dos caminhoneiros**) 
-- **Semana 04:** 04 e 06/06
+- ✅**Semana 04:** 04 e 06/06
 - **Semana 05:** 11 e 13/06
 - **Semana 06:** 18 e 20/06
 - **Semana 07:** 25 e 27/06
@@ -51,8 +51,8 @@
 - Arquitetura
 - Diretivas
 - Serviços
-- NgModule
-- Data binding
+- ✅ NgModule
+- ✅ Data binding
 - Injeção de dependências
 - HTTP
 - Rotas
@@ -60,14 +60,14 @@
 
 ### Entrada de dados do usuário
 
-- Event binding
+- ✅ Event binding
 - Variável de referência do template
-- click
-- keyup
-- keyup.enter
-- blur
-- Input properties
-- Output properties
+- ✅click
+- ✅keyup
+- ✅keyup.enter
+- ✅blur
+- ✅Input properties
+- ✅Output properties
 
  
 ### Formulários
@@ -86,28 +86,28 @@
 
 ## Ementa Sugerida para Estudo
 
-- 01: Introdução ao Angular 2+
-- 02: Ambiente de desenvolvimento (Node.JS, TypeScript, Angular CLI)
-- 03: Hello, World! Criando primeiro projeto e o primeiro Componente
-- 04: Introdução ao TypeScript para Angular
-- 05: Módulos (ngModule)
-- 06: Templates
-- 07: Serviços (Services) e Injeção de dependência (DI)
-- 08: Dicas plugins Angular para Atom e VS Code
-- 09: Property binding + Interpolation
-- 10: Class e Style binding
+- ✅ 01: Introdução ao Angular 2+
+- ✅ 02: Ambiente de desenvolvimento (Node.JS, TypeScript, Angular CLI)
+- ✅ 03: Hello, World! Criando primeiro projeto e o primeiro Componente
+- ✅ 04: Introdução ao TypeScript para Angular
+- ✅ 05: Módulos (ngModule)
+- ✅ 06: Templates
+- ✅ 07: Serviços (Services) e Injeção de dependência (DI)
+- ✅ 08: Dicas plugins Angular para Atom e VS Code
+- ✅ 09: Property binding + Interpolation
+- ✅ 10: Class e Style binding
  
-- 11: Event binding
+- ✅ 11: Event binding
 - 12: Two-way data binding
-- 13: Input properties
-- 14: Output properties
-- 15: Ciclo de vida (life-cycle) do Componente
+- ✅ 13: Input properties
+- ✅ 14: Output properties
+- ✅ 15: Ciclo de vida (life-cycle) do Componente
 - 16: Acesso ao DOM e ao Template com ViewChild
-- 17: Angular CLI: Instalação e criação de projetos: ng new e ng serve
-- 18: Angular CLI: Criando components, services: ng generate
+- ✅ 17: Angular CLI: Instalação e criação de projetos: ng new e ng serve
+- ✅ 18: Angular CLI: Criando components, services: ng generate
 - 19: Angular CLI: Usando pré-processadores (Sass, Less, Stylus)
 - 20: Angular CLI: ng lint, ng test, ng e2e
-- 21: Angular CLI: Estrutura do projeto
+- ✅ 21: Angular CLI: Estrutura do projeto
 - 22: Angular CLI: Gerando build de produção
 - 23: Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)
  
@@ -118,7 +118,7 @@
 - 28: Diretivas: sobre o * e template
 - 29: Diretivas: ngClass
 - 30: Diretivas: ngStyle
-- 31: Operador Elvis ?
+- ✅ 31: Operador Elvis ?
 - 32: ng-content
 - 33: Criando uma diretiva de atributo: ElementRef e **Renderer**
 - 34: Diretivas: HostListener e HostBinding
