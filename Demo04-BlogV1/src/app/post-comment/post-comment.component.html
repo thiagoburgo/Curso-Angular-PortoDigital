@@ -1,0 +1,11 @@
+<h4>
+    Deixe seu comentário:
+</h4>
+<div>
+    {{ comentario }} - {{ post.title }}
+</div>
+<!-- <input #comentarioEl
+[ngModel]="comentario" (ngModelChange)="onChange($event)" type="text"> -->
+
+<input #comentarioEl [(ngModel)]="comentario" type="text">
+<input #comentarioEl2 [(ngModel)]="post.title" type="text">

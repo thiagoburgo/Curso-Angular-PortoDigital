@@ -16,6 +16,7 @@ export class PostTitleComponent implements OnInit {
 
   ngOnInit() {
   }
+
   onLike(liked: boolean) {
     this.like = liked;
   }

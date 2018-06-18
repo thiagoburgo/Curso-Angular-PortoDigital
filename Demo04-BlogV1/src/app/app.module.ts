@@ -12,7 +12,8 @@ import { BlogService } from './services/blog.service';
 
 import { HttpClientModule } from '@angular/common/http';
 import { LikeComponent } from './shared/like/like.component';
-
+import { PostCommentComponent } from './post-comment/post-comment.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,11 +22,13 @@ import { LikeComponent } from './shared/like/like.component';
     PostTitleComponent,
     PostAuthorComponent,
     PostBodyComponent,
-    LikeComponent
+    LikeComponent,
+    PostCommentComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     BlogService

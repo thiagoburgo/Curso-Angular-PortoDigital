@@ -17,9 +17,9 @@ export class PostBodyComponent implements OnInit, OnChanges {
 
   @Input()
   set body(val: string) {
-    console.log('Valor Atual:', val);
-    console.log('Valor Anterior:', this._body);
-    console.log('FirstChange? ', this._body === undefined);
+    // console.log('Valor Atual:', val);
+    // console.log('Valor Anterior:', this._body);
+    // console.log('FirstChange? ', this._body === undefined);
     this._body = val;
   }
 
@@ -33,7 +33,7 @@ export class PostBodyComponent implements OnInit, OnChanges {
     //   changes.body.currentValue.indexOf('');
     // }
 
-    console.log('Changes: ', changes);
+    // console.log('Changes: ', changes);
   }
 
 }
