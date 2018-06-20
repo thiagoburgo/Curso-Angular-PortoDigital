@@ -1,9 +1,9 @@
 # Curso de Angular 5 - Porto Digital :white_check_mark:
 ## Links de Referencia
 
-http://surge.sh/
-http://burgo-blog-service.us.openode.io/
-https://www.openode.io
+-  http://surge.sh/
+-  http://burgo-blog-service.us.openode.io/
+-  https://www.openode.io
 
 ## Calendário
 
