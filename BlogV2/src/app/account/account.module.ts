@@ -9,9 +9,6 @@ import { LoginComponent } from './login/login.component';
     CommonModule,
     AccountRoutingModule
   ],
-  declarations: [LoginComponent],
-  exports: [
-    LoginComponent
-  ]
+  declarations: [LoginComponent]
 })
 export class AccountModule { }
