@@ -11,10 +11,11 @@
 - ✅**Semana 02:** 21 e 23/05 
 - ✅**Semana 03:** 28 e 30/05 (**dia 28 não houve aula devido à greve dos caminhoneiros**) 
 - ✅**Semana 04:** 04 e 06/06
-- **Semana 05:** 11 e 13/06
-- **Semana 06:** 18 e 20/06
+- ✅**Semana 05:** 11 e 13/06 (**dia 13 Falta do instrutor**)
+- ✅**Semana 06:** 18 e 20/06
 - **Semana 07:** 25 e 27/06
 - **Semana 08:** 02 e 04/07
+- **Semana 08:** 09 e 11/07
 
 ## Ementa Oficial
 
@@ -53,12 +54,12 @@
 
 ### Fundamentos do Angular
 
-- Arquitetura
+- ✅ Arquitetura
 - Diretivas
-- Serviços
+- ✅ Serviços
 - ✅ NgModule
 - ✅ Data binding
-- Injeção de dependências
+- ✅ Injeção de dependências
 - HTTP
 - Rotas
  
@@ -66,13 +67,13 @@
 ### Entrada de dados do usuário
 
 - ✅ Event binding
-- Variável de referência do template
-- ✅click
-- ✅keyup
-- ✅keyup.enter
-- ✅blur
-- ✅Input properties
-- ✅Output properties
+- ✅ Variável de referência do template
+- ✅ click
+- ✅ keyup
+- ✅ keyup.enter
+- ✅ blur
+- ✅ Input properties
+- ✅ Output properties
 
  
 ### Formulários
@@ -103,11 +104,11 @@
 - ✅ 10: Class e Style binding
  
 - ✅ 11: Event binding
-- 12: Two-way data binding
+- ✅ 12: Two-way data binding
 - ✅ 13: Input properties
 - ✅ 14: Output properties
 - ✅ 15: Ciclo de vida (life-cycle) do Componente
-- 16: Acesso ao DOM e ao Template com ViewChild
+- ✅ 16: Acesso ao DOM e ao Template com ViewChild
 - ✅ 17: Angular CLI: Instalação e criação de projetos: ng new e ng serve
 - ✅ 18: Angular CLI: Criando components, services: ng generate
 - 19: Angular CLI: Usando pré-processadores (Sass, Less, Stylus)
@@ -117,12 +118,12 @@
 - 23: Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)
  
 - 24: Introdução e tipos de diretivas no Angular 2
-- 25: Diretivas: ngIf
+- ✅ 25: Diretivas: ngIf
 - 26: Diretivas: ngSwitch, ngSwitchCase e ngSwitchDefault
-- 27: Diretivas: ngFor
+- ✅ 27: Diretivas: ngFor
 - 28: Diretivas: sobre o * e template
-- 29: Diretivas: ngClass
-- 30: Diretivas: ngStyle
+- ✅ 29: Diretivas: ngClass
+- ✅ 30: Diretivas: ngStyle
 - ✅ 31: Operador Elvis ?
 - 32: ng-content
 - 33: Criando uma diretiva de atributo: ElementRef e **Renderer**
@@ -130,9 +131,9 @@
 - 35: Diretivas: Input e Property Binding
 - 36: Criando uma diretiva de estrutura (ngElse)
  
-- 37: Introdução a Serviços
-- 38: Criando um serviço (Service)
-- 39: Injeção de Dependência (DI) + como usar um serviço em um componente
+- ✅ 37: Introdução a Serviços
+- ✅ 38: Criando um serviço (Service)
+- ✅ 39: Injeção de Dependência (DI) + como usar um serviço em um componente
 - 40: Escopo de instâncias de serviços e módulos (singleton e várias instâncias)
 - 41: Comunicação entre componentes usando serviços (broadcast de eventos)
 - 42: Injetando um serviço em outro serviço
