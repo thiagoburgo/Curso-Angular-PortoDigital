@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { IndexComponent } from './index/index.component';
+import { LayoutSimplesComponent } from './layout-simples/layout-simples.component';
 
 const routes: Routes = [
   {
      path: 'account',
+     component: LayoutSimplesComponent,
      loadChildren: 'app/account/account.module#AccountModule'
   },
   {
