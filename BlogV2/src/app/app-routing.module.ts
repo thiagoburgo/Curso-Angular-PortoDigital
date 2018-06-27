@@ -1,26 +1,41 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { IndexComponent } from './index/index.component';
-import { LayoutSimplesComponent } from './layout-simples/layout-simples.component';
+import { LayoutComponent } from './shared/layout/layout.component';
+import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
 const routes: Routes = [
   {
-     path: 'account',
-     component: LayoutSimplesComponent,
-     loadChildren: 'app/account/account.module#AccountModule'
+    path: 'account',
+    loadChildren: 'app/account/account.module#AccountModule'
   },
   {
-    path: 'admin',
-    loadChildren: 'app/admin/admin.module#AdminModule'
- },
-  {
     path: '',
-    component: IndexComponent
+    component: LayoutComponent,
+    children: [
+      {
+        path: '',
+        component: IndexComponent
+      },
+      {
+        path: 'admin',
+        loadChildren: 'app/admin/admin.module#AdminModule'
+      },
+      {
+        path: '**',
+        pathMatch: 'full',
+        redirectTo: '/not-found'
+      }
+    ]
+  },
+  {
+    path: 'not-found',
+    component: PageNotFoundComponent
   },
   {
     path: '**',
     pathMatch: 'full',
-    redirectTo: ''
+    redirectTo: '/not-found'
   }
 ];
 
