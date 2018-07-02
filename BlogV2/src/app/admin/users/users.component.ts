@@ -12,7 +12,11 @@ export class UsersComponent implements OnInit {
 
   constructor(private activedRoute: ActivatedRoute) {
       this.userId = activedRoute.snapshot.params['id'];
-      //this.userId = +activedRoute.snapshot.paramMap.get('id');
+      activedRoute.paramMap.subscribe((routeParams) => {
+        this.userId = +routeParams.get('id');
+      });
+
+      // this.userId = +activedRoute.snapshot.paramMap.get('id');
    }
 
   ngOnInit() {
