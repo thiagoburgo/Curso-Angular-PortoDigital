@@ -13,8 +13,8 @@
 - ✅**Semana 04:** 04 e 06/06
 - ✅**Semana 05:** 11 e 13/06 (**dia 13 Falta do instrutor**)
 - ✅**Semana 06:** 18 e 20/06
-- **Semana 07:** 25 e 27/06
-- **Semana 08:** 02 e 04/07
+- ✅**Semana 07:** 25 e 27/06
+- ✅**Semana 08:** 02 e 04/07
 - **Semana 08:** 09 e 11/07
 
 ## Ementa Oficial
@@ -46,9 +46,9 @@
 
 ### Projetando a aplicação
 
-- Arquitetura do projeto
+- ✅ Arquitetura do projeto
 - ✅ Iniciando um novo projeto em Angular
-- Instalação do bootstrap
+- ✅ Instalação do bootstrap
 - ✅ Analisando a estrutura criada
  
 
@@ -61,7 +61,7 @@
 - ✅ Data binding
 - ✅ Injeção de dependências
 - HTTP
-- Rotas
+- ✅ Rotas
  
 
 ### Entrada de dados do usuário
@@ -125,7 +125,7 @@
 - ✅ 29: Diretivas: ngClass
 - ✅ 30: Diretivas: ngStyle
 - ✅ 31: Operador Elvis ?
-- 32: ng-content
+- ✅ 32: ng-content
 - 33: Criando uma diretiva de atributo: ElementRef e **Renderer**
 - 34: Diretivas: HostListener e HostBinding
 - 35: Diretivas: Input e Property Binding
@@ -144,22 +144,22 @@
 - 46: Pipes: Criando um Pipe “Puro”
 - 47: Pipes: Criando um Pipe “Impuro”
 - 48: Pipes: Async (assíncrono)
-- 49: Rotas: Introdução
-- 50: Rotas: Configurando rotas simples
-- 51: Rotas: RouterLink: definindo rotas no template
-- 52: Rotas: Aplicando CSS em rotas ativas
+- ✅ 49: Rotas: Introdução
+- ✅ 50: Rotas: Configurando rotas simples
+- ✅ 51: Rotas: RouterLink: definindo rotas no template
+- ✅ 52: Rotas: Aplicando CSS em rotas ativas
  
-- 53: Rotas: Definindo e extraindo parâmetros de roteamento
-- 54: Rotas: Escutando mudanças nos parâmetros de roteamento
-- 55: Rotas Imperativas: Redirecionamento via código
-- 56: Rotas: Definindo e extraindo parâmetros de url (query)
-- 57: Rotas: Criando um módulo de rotas
-- 58: Criando um módulo de funcionalidade
-- 59: Rotas: Criando um módulo de rotas de funcionalidade
-- 60: Rotas Filhas
-- 61: Rotas Filhas: desenvolvendo as telas
-- 62: Rotas: Dica de Performance: Carregamento sob demanda (lazy loading)
-- 63: Rotas: Tela de Login e como não mostrar o Menu (NavBar)
+- ✅ 53: Rotas: Definindo e extraindo parâmetros de roteamento
+- ✅ 54: Rotas: Escutando mudanças nos parâmetros de roteamento
+- ✅ 55: Rotas Imperativas: Redirecionamento via código
+- ✅ 56: Rotas: Definindo e extraindo parâmetros de url (query)
+- ✅ 57: Rotas: Criando um módulo de rotas
+- ✅ 58: Criando um módulo de funcionalidade
+- ✅ 59: Rotas: Criando um módulo de rotas de funcionalidade
+- ✅ 60: Rotas Filhas
+- ✅ 61: Rotas Filhas: desenvolvendo as telas
+- ✅ 62: Rotas: Dica de Performance: Carregamento sob demanda (lazy loading)
+- ✅ 63: Rotas: Tela de Login e como não mostrar o Menu (NavBar)
  
 - 64: Usando Guarda de Rotas: CanActivate
 - 65: Usando Guarda de Rotas: CanActivateChild
@@ -167,8 +167,8 @@
 - 67: Usando Guarda de Rotas: CanDeactivate com Interface Genérica
 - 68: Usando Guarda de Rotas: Resolve: carregando dados antes da rota ser ativada 
 - 69: Usando Guarda de Rotas: CanLoad: como não carregar o módulo sem permissão
-- 70: Definindo rota padrão e wildcard (rota não encontrada)
-- 71: Estilo de url: HTML5 ou usando #
+- ✅ 70: Definindo rota padrão e wildcard (rota não encontrada)
+- ✅ 71: Estilo de url: HTML5 ou usando #
  
 - 72: Formulários (template vs data / reativo) Introdução
 - 73: Formulários – Criando o projeto inicial com Bootstrap 3
