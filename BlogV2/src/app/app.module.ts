@@ -12,12 +12,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutSimplesComponent } from './layout-simples/layout-simples.component';
 import { SharedModule } from './shared/shared.module';
 import { PermissionGuard } from './shared/permission.guard';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    LayoutSimplesComponent
+    LayoutSimplesComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
