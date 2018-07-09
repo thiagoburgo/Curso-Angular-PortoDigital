@@ -15,7 +15,6 @@ export class UsersComponent implements OnInit {
       activedRoute.paramMap.subscribe((routeParams) => {
         this.userId = +routeParams.get('id');
       });
-
       // this.userId = +activedRoute.snapshot.paramMap.get('id');
    }
 

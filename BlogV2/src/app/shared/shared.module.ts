@@ -5,12 +5,17 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DistancePipe } from './distance.pipe';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule
   ],
-  declarations: [LayoutComponent, HeaderComponent, FooterComponent, PageNotFoundComponent]
+  declarations: [LayoutComponent,
+    HeaderComponent, FooterComponent,
+    PageNotFoundComponent, DistancePipe
+  ],
+  exports: [DistancePipe]
 })
 export class SharedModule { }

@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutSimplesComponent } from './layout-simples/layout-simples.component';
 import { SharedModule } from './shared/shared.module';
+import { PermissionGuard } from './shared/permission.guard';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { SharedModule } from './shared/shared.module';
     MatButtonModule,
     SharedModule
   ],
-  providers: [],
+  providers: [
+    PermissionGuard
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

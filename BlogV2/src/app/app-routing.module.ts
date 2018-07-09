@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { IndexComponent } from './index/index.component';
 import { LayoutComponent } from './shared/layout/layout.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
+import { PermissionGuard } from './shared/permission.guard';
+
 
 const routes: Routes = [
   {
@@ -19,6 +21,12 @@ const routes: Routes = [
       },
       {
         path: 'admin',
+        canActivate: [PermissionGuard],
+        canLoad: [PermissionGuard],
+        data: {
+          permissions: ['Admin', 'Sys'],
+          requireAll: true
+        },
         loadChildren: 'app/admin/admin.module#AdminModule'
       },
       {
